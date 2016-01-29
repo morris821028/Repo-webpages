@@ -1,0 +1,16 @@
+site:
+  repo: jquery-hex-gallery
+  title: morris821028
+  description: 'create beautiful hexagon shapes with CSS3, jquery'
+  start: https://github.com/morris821028/jquery-hex-gallery/archive/master.zip
+splash:
+  github:
+    user: morris821028
+    repo: jquery-hex-gallery
+  social:
+  	twitter:
+    facebook: 
+menu:
+  home: https://github.com/morris821028/jquery-hex-gallery
+footer:
+  text: Powered by Nodejs and Theme by Pure.CSS © 2016 Shiang-Yun Yang 

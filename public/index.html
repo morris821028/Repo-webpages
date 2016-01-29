@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="create beautiful hexagon shapes with CSS3, jquery">
+
+    <title>jquery-hex-gallery | morris821028</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="css/layouts/marketing.css"> 
+</head>
+<body>
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">morris821028</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected"><a href="https://github.com/morris821028/jquery-hex-gallery" class="pure-menu-link">Home</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">jquery-hex-gallery</h1>
+        <p class="splash-subhead">create beautiful hexagon shapes with CSS3, jquery</p>
+        <p>
+            <a href="https://github.com/morris821028/jquery-hex-gallery/archive/master.zip" class="pure-button pure-button-primary">Get Started</a>
+        </p>
+        <p>
+            <!-- GitHub Star -->
+            <iframe src="https://ghbtns.com/github-btn.html?user=morris821028&repo=jquery-hex-gallery&type=star&count=true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
+            <!-- GitHub fork -->
+            <iframe src="https://ghbtns.com/github-btn.html?user=morris821028&repo=jquery-hex-gallery&type=fork&count=true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
+            <!-- Tweet button -->
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://hexo.io/" data-text="Hexo - A fast, simple &amp; powerful blog framework powered by Node.js." data-hashtags="hexo,nodejs">Tweet</a>
+            
+            <script>
+            window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+            </script>
+        </p>
+    </div>
+</div>
+
+<div class="content-wrapper">
+    <div class="content">
+        <h1 id="jquery-hex-gallery">jquery-hex-gallery</h1>
+<p>create beautiful hexagon shapes with CSS3, jquery</p>
+<ul>
+<li><a href="http://morris821028.github.io/jquery-hex-gallery/">Demo page 1</a></li>
+<li><a href="http://morris821028.github.io/picture/">Demo page 2</a></li>
+</ul>
+<h2 id="usage">Usage</h2>
+<h3 id="javascript">javascript</h3>
+<p>in header</p>
+<pre><code>&lt;script src=&quot;js/jquery.hex.gallery.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;    
+&lt;script src=&quot;js/jquery.lazyload.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt; 
+&lt;script src=&quot;js/jquery.als.link-1.6.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+</code></pre><h3 id="css">css</h3>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot;&gt;
+</code></pre><h3 id="html">html</h3>
+<pre><code>&lt;body&gt;
+    ...
+         &lt;script type=&quot;text/hex-gallery&quot;&gt;
+{
+  &quot;album&quot; : [
+      {
+        &quot;cover&quot;: {&quot;title&quot;: &quot;&lt;p&gt;Stephanie Dola&lt;/p&gt;&quot;, &quot;class&quot;: &quot;hex-1&quot;, &quot;img&quot; : &quot;http://i.imgur.com/xaykK2s.jpg&quot;},
+        &quot;photo&quot;: [
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/yIoACHc.gif&quot;},
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/uINck6K.gif&quot;},
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/zOZJEex.gif&quot;}
+        ]
+      },
+      {
+        &quot;cover&quot;: {&quot;title&quot;: &quot;&lt;p&gt;Moe Moe&lt;/p&gt;&quot;, &quot;class&quot;: &quot;hex-1&quot;, &quot;img&quot;: &quot;http://i.imgur.com/SOjLn66.jpg&quot;},
+        &quot;photo&quot;: [
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/YSmWA3g.gif&quot;},
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/6G4BDxU.gif&quot;},
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/kuH4XVL.gif&quot;},
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/0NemOhQ.gif&quot;},
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/tedXr7Y.gif&quot;},
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/5IHR8bQ.gif&quot;}
+        ]
+      },
+      {
+        &quot;cover&quot;: {&quot;title&quot;: &quot;&lt;p&gt;Chiyo Gekkan&lt;/p&gt;&quot;, &quot;class&quot;: &quot;hex-1&quot;, &quot;img&quot;: &quot;http://i.imgur.com/FbZZuQC.png&quot;},
+        &quot;photo&quot;: [
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/dCw8LFb.gif&quot;},
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/ZtHGJYd.gif&quot;},
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/4eZyFHp.gif&quot;}
+        ]
+      },
+      {
+        &quot;cover&quot;: {&quot;title&quot;: &quot;&lt;p&gt;Other&lt;/p&gt;&quot;, &quot;class&quot;: &quot;hex-1&quot;, &quot;img&quot;: &quot;http://i.imgur.com/FbZZuQC.png&quot;},
+        &quot;photo&quot;: [
+          {&quot;imgur&quot;: &quot;http://i.imgur.com/vpKzynV.gif&quot;}
+        ]
+      }
+  ]
+}
+       &lt;/script&gt;
+     ...
+&lt;/body&gt;
+</code></pre>
+    </div>
+    <div class="footer l-box is-center">
+        Powered by Nodejs and Theme by Pure.CSS © 2016 Shiang-Yun Yang
+    </div>
+</div>
+
+</body>
+</html>
