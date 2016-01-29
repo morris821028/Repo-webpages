@@ -1,3 +1,17 @@
+## Repo-webpages ##
+
+### Fast Start ###
+
+```
+$ git clone https://github.com/morris821028/Repo-webpages
+$ cp README.md Repo-webpages/source
+$ cd Repo-webpages
+$ npm install
+$ node app.js
+```
+
+### Theme ###
+
 Pure CSS Layout Examples
 ========================
 
